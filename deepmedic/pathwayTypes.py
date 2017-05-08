@@ -9,12 +9,14 @@
 #                        Types of Pathways                      #
 #################################################################
 
-
 # Also see module deepmedic.pathways.
 
+
 class PathwayTypes(object):
-    NORM = 0; SUBS = 1; FC = 2 # static
-    
-    def pTypes(self): #To iterate over if needed.
-        # This enumeration is also the index in various datastructures ala: [ [listForNorm], [listForSubs], [listForFc] ] 
+    NORM = 0
+    SUBS = 1
+    FC = 2  # static
+
+    def pTypes(self):  #To iterate over if needed.
+        # This enumeration is also the index in various datastructures ala: [ [listForNorm], [listForSubs], [listForFc] ]
         return [self.NORM, self.SUBS, self.FC]
