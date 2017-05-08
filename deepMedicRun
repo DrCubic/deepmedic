@@ -12,6 +12,7 @@ import argparse
 
 sys.setrecursionlimit(20000)
 
+
 from deepmedic.frontEndModules.frontEndHelpers.parsingFilesHelpers import getAbsPathEvenIfRelativeIsGiven
 
 def strIsInt(s):
