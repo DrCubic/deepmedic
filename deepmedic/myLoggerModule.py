@@ -7,6 +7,7 @@
 
 import datetime
 
+
 class MyLogger :
     loggerFileName = None
     

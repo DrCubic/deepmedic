@@ -12,6 +12,7 @@ from deepmedic.cnnHelpers import checkReceptiveFieldFineInComparisonToSegmentSiz
 from deepmedic.cnnHelpers import checkKernDimPerLayerCorrect3dAndNumLayers
 from deepmedic.cnnHelpers import checkSubsampleFactorEven
 
+
 class CreateModelSessionParameters(object) :
     #THE LOGIC WHETHER I GOT A PARAMETER THAT I NEED SHOULD BE IN HERE!
     #Checks for whether needed parameters and types were passed correctly

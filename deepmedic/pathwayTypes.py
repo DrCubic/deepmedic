@@ -9,6 +9,7 @@
 #                        Types of Pathways                      #
 #################################################################
 
+
 # Also see module deepmedic.pathways.
 
 class PathwayTypes(object):

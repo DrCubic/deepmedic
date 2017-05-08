@@ -20,6 +20,7 @@ from sys import maxint as MAX_INT
 
 from deepmedic.maxPoolingModule import myMaxPooling3d
 
+
 ###############################################################
 # Functions used by layers but do not change Layer Attributes #
 ###############################################################

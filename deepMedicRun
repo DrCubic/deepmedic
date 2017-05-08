@@ -139,4 +139,4 @@ if __name__ == '__main__':
         absPathToTestConf = getAbsPathEvenIfRelativeIsGiven(args.testing_conf, cwd)
         absPathToCnnModelGivenInCmdLine = getAbsPathEvenIfRelativeIsGiven(args.saved_model, cwd)  if args.saved_model else None
         deepMedicTest.deepMedicTestMain(absPathToTestConf, absPathToCnnModelGivenInCmdLine)
-        
+

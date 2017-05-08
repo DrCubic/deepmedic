@@ -7,6 +7,7 @@
 
 import numpy as np
 
+
 class SamplingType(object) :
     def __init__(self, myLogger, samplingType, numberOfClassesInclBackgr):
         self.logger = myLogger

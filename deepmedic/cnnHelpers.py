@@ -9,6 +9,7 @@ import numpy as np
 from genericHelpers import *
 import os
 
+
 # The API for these classes should resemble the API of Pathway and Cnn3d classes. But only what is needed by the sampling process of the training procedure.
 class PathwayWrapperForSampling(object):
     # For CnnWrapperForSampling class.

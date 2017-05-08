@@ -20,6 +20,7 @@ from deepmedic.cnnLayerTypes import SoftmaxLayer
 
 from deepmedic.cnnHelpers import calculateReceptiveFieldDimensionsFromKernelsDimListPerLayerForFullyConvCnnWithStrides1
 
+
 #-----helper functions that I use in here---
 
 def padImageWithMirroring(inputImage, voxelsPerDimToPad) :

@@ -17,6 +17,7 @@ from deepmedic.pathwayTypes import PathwayTypes
 from deepmedic.cnnLayerTypes import ConvLayer, LowRankConvLayer
 from deepmedic.cnnHelpers import calculateReceptiveFieldDimensionsFromKernelsDimListPerLayerForFullyConvCnnWithStrides1
 
+
 #################################################################
 #                         Pathway Types                         #
 #################################################################

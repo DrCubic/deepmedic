@@ -17,6 +17,7 @@ from math import ceil
 
 import datetime
 
+
 def strFlXDec(flNum, numDec) :
     #ala "{0:.2f}".format(13.94999)
     stringThatSaysHowManyDecimals = "{0:." + str(numDec) + "f}"

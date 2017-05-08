@@ -23,6 +23,7 @@ from deepmedic.frontEndModules.frontEndHelpers.preparationForSessionHelpers impo
 
 from deepmedic.genericHelpers import load_object_from_gzip_file
 
+
 class TrainConfig(object):
     configStruct = {} #In here will be placed all read arguments.
     def get(self,string1) :

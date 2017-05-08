@@ -7,6 +7,7 @@
 
 import os
 
+
 def getAbsPathEvenIfRelativeIsGiven(pathGiven, absolutePathToWhereRelativePathRelatesTo) :
     #os.path.normpath "cleans" Additional ../.// etc.
     if os.path.isabs(pathGiven) : 

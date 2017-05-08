@@ -553,6 +553,7 @@ def plotProgressDetailed(measuredMetricsFromAllExperiments, legendList, movingAv
 
 
 
+
 if __name__ == '__main__':
 
     myArgParser = setupArgParser()

@@ -10,6 +10,7 @@ from theano.tensor.signal import pool
 
 from math import ceil
 
+
 def mirrorFinalBordersOfImage(image3dBC012, mirrorFinalBordersForThatMuch) :
     image3dBC012WithMirroredFinalElemets = image3dBC012
     for time_i in xrange(0, mirrorFinalBordersForThatMuch[0]) :

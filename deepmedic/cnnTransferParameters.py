@@ -7,6 +7,7 @@
 
 from deepmedic.pathwayTypes import PathwayTypes as pt
 
+
 def transferParametersBetweenModels(myLogger, cnnTarget, cnnSource, listOfLayersToTransfer):
     """
     Transfer parameters from a model to another.
